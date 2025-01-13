@@ -68,12 +68,12 @@ ________________________________________
 ### Pulling from Docker hub
 If you want to obtain the image from Docker registry, you can use the following command:
 ```sh
-docker pull gf09/iperf3
+docker pull gf09/docker-iperf3
 ```
 ________________________________________
 ### Running the image
 In order to run the iperf server, use the following:
 ```sh
-docker run --name=iperf3 -d --restart=unless-stopped -p 5201:5201/tcp -p 5201:5201/udp gf09/iperf3
+docker run --name=iperf3 -d --restart=unless-stopped -p 5201:5201/tcp -p 5201:5201/udp gf09/docker-iperf3
 ```
 At that point, you can use your Docker server as an iperf3 server to begin testing your network.
