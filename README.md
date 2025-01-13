@@ -1,4 +1,4 @@
-Copied from https://github.com/michellabbe/docker-iperf3 so I can update the docker image to get latest securit patches.
+Copied from https://github.com/michellabbe/docker-iperf3 so I can update the docker image to get latest security patches.
 
 # iperf3
 
